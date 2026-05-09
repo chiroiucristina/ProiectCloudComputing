@@ -16,12 +16,12 @@ const MainPage = () => {
     fetchRecords();
   }, []);
 
-  // FUNCȚIA NOUĂ: Se ocupă de ștergerea unei amintiri
+  
   const handleDelete = async (id) => {
     if (confirm("Sigur vrei să ștergi această amintire din jurnal?")) {
       const success = await deleteRecord(id);
       if (success) {
-        // Actualizăm lista pe ecran (scoatem record-ul șters)
+        
         setRecords(records.filter(record => record._id !== id));
       } else {
         alert("Eroare la ștergerea înregistrării.");
