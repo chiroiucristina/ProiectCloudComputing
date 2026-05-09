@@ -1,5 +1,5 @@
 import ContactForm from '@/components/ContactForm';
-import Header from '@/components/Header'; 
+
 
 export const metadata = {
     title: 'Contact | Jurnal de Călătorii',
