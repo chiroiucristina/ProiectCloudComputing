@@ -1,5 +1,4 @@
 import ChatComponent from "@/components/ChatComponent"; 
-import Header from "@/components/Header";
 
 export const metadata = {
     title: 'Chat AI | Jurnal de Călătorii',
