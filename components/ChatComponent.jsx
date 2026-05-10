@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from 'react';
 import MessageBox from "@/components/MessageBox"; 
 function ChatComponent(props) {
